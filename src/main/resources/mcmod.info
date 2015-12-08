@@ -1,0 +1,15 @@
+[
+{
+  "modid": "finally-these-recipes",
+  "name": "FinallyTheseRecipes",
+  "description": "The same game balance, the same recipes, just collapsed and upscaled where possible.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Falkreon"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
