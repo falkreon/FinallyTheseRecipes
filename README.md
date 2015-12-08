@@ -10,6 +10,7 @@ basic directly to Reinforced, and Hardened directly to Resonant. Pretty much
 anywhere there's a tiered recipe like that with room to skip a step, this mod
 intends to add recipes to skip the step.
 
+![Hardened directly to Resonant](/doc/hardened_to_resonant.png)
 
 Additionally, there are a lot of nugget recipes out there. Where possible, we'll
 add "bulk crafting" recipes to turn ingots into nine times as much product.
