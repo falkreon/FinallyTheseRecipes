@@ -7,14 +7,10 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.registry.GameData;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
 import net.minecraftforge.oredict.ShapedOreRecipe;
-import net.minecraftforge.oredict.ShapelessOreRecipe;
 
 @Mod(modid = "finally-these-recipes", name="FinallyTheseRecipes", version="1.0")
 public class FinallyTheseRecipesMod {
@@ -23,6 +19,8 @@ public class FinallyTheseRecipesMod {
 	@EventHandler
 	public void onPreInit(FMLPreInitializationEvent event) {
 		LOGGER = event.getModLog();
+		
+		StorageBlocks.init();
 	}
 	
 	@EventHandler

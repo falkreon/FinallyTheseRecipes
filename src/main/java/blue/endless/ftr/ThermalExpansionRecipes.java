@@ -43,6 +43,10 @@ public class ThermalExpansionRecipes {
 		upgradeRecipe(cacheBasic, cacheReinforced, "ingotInvar", "blockGlassHardened");
 		//Hardened Cache -> Resonant
 		upgradeRecipe(cacheResonant, cacheHardened, "blockGlassHardened", "ingotEnderium");
+		
+		
+		
+		
 	}
 	
 	public static void upgradeRecipe(ItemStack after, ItemStack before, Object material1, Object material2) {
